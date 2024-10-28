@@ -1,11 +1,18 @@
+scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function (sprite, location) {
+    tiles.setCurrentTilemap(tilemap`level0`)
+    game.splash("Level 2", "Press A to start")
+    mySprite.setPosition(2, 4)
+})
+let _2: Sprite = null
 let _6: Sprite = null
 let _5: Sprite = null
 let _4: Sprite = null
 let _3: Sprite = null
-let _2: Sprite = null
 let _1: Sprite = null
+let mySprite: Sprite = null
 tiles.setCurrentTilemap(tilemap`level2`)
-let mySprite = sprites.create(img`
+game.splash("Level 1", "Press A to start")
+mySprite = sprites.create(img`
     . . 1 1 1 8 8 8 8 9 . . . . . . 
     . 9 1 9 9 9 9 1 9 1 9 9 9 9 . . 
     1 9 8 8 1 9 9 9 9 9 1 9 1 1 1 . 
@@ -23,8 +30,10 @@ let mySprite = sprites.create(img`
     . . . . 1 1 1 1 1 1 9 . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+mySprite.setPosition(5, 4)
 controller.moveSprite(mySprite)
 mySprite.setStayInScreen(true)
+scene.cameraFollowSprite(mySprite)
 forever(function () {
     _1 = sprites.create(img`
         . . . . . . . . . . . . . . . . 
