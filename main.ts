@@ -1,5 +1,5 @@
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function (sprite, location) {
-    if (info.score() == 4) {
+    if (info.score() == 6) {
         tiles.setCurrentTilemap(tilemap`level0`)
         game.splash("Level 2", "Press A to start")
         Player_1.setPosition(2, 4)
@@ -66,6 +66,3 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, l
 let myEnemy: Sprite = null
 let Player_1: Sprite = null
 Level_1()
-forever(function () {
-	
-})

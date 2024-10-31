@@ -168,24 +168,24 @@ namespace myTiles {
 . . . . . . 2 2 . . . . 2 2 2 . 
 `, [myTiles.transparency16,sprites.builtin.forestTiles10,sprites.builtin.forestTiles5,sprites.builtin.forestTiles13,sprites.builtin.forestTiles7,sprites.builtin.forestTiles6,sprites.builtin.forestTiles11,sprites.builtin.forestTiles14,sprites.builtin.forestTiles9,sprites.dungeon.floorLight0,sprites.dungeon.collectibleInsignia], TileScale.Sixteen);
             case "level2":
-            case "level2":return tiles.createTilemap(hex`1000100003030303030301070303030303030303030301030303010202010302030303030303020303030303030303020303030301020201030301010101010203030303030303030303030301030303030303030301030102020203020301010201010103020301070303030203010702030303030203010101010302030303010303030302030303030103010101010203030303020303030301030303030303030303030103030303010102040202020201030301010301010103030303030105010303030203010303030101030301030103030702030203030307010303010301030102020302020202010103030103010307030303030303030303030301030303`, img`
-. . . . . . 2 . . . . . . . . . 
-. . 2 . . . 2 2 2 2 . 2 . . . . 
+            case "level2":return tiles.createTilemap(hex`1000100003030303030301060303010101010101030301030303010303010102030303030303020303030303030303020306030301020201030303030303030201010303030303030303030101030303030303030303030303020101030303030303030103010103030106030303030101010101030301030301010303010101010101010301010303030103030303030303030303010103030301030303030303030303030301030303010102040202020201030303010303010103030303030105010303030203030103030101030301030103030602030301030306010303010301030102020303020202010103030103010306030303030303030303030301030303`, img`
+. . . . . . 2 . . . 2 2 2 2 2 2 
+. . 2 . . . 2 . . 2 2 2 . . . . 
 . . 2 . . . . . . . . 2 . . . . 
-2 2 2 2 . . 2 2 2 2 2 2 . . . . 
-. . . . . . . . 2 . . . . . . . 
-. 2 . 2 2 2 2 . 2 . 2 2 2 2 2 2 
-. 2 . 2 . . . . 2 . 2 . 2 . . . 
-. 2 . 2 2 2 2 . 2 . . . 2 . . . 
-. 2 . . . . 2 . 2 2 2 2 2 . . . 
-. 2 . . . . 2 . . . . . . . . . 
-. 2 . . . . 2 2 2 2 2 2 2 2 2 . 
-. 2 2 . 2 2 2 . . . . . 2 . 2 . 
-. . 2 . 2 . . . 2 2 . . 2 . 2 . 
-. . 2 . 2 . . . . 2 . . 2 . 2 . 
-2 2 2 . 2 2 2 2 2 2 . . 2 . 2 . 
+2 2 2 2 . . . . . . . 2 2 2 . . 
+. . . . . . . 2 2 . . . . . . . 
+. . . . . 2 2 2 . . . . . . . 2 
+. 2 2 . . 2 . . . . . 2 2 2 2 2 
+. . 2 . . 2 2 . . 2 2 2 2 2 2 2 
+. 2 2 . . . 2 . . . . . . . . . 
+. 2 2 . . . 2 . . . . . . . . . 
+. . 2 . . . 2 2 2 2 2 2 2 2 2 . 
+. . 2 . . 2 2 . . . . . 2 . 2 . 
+. . 2 . . 2 . . 2 2 . . 2 . 2 . 
+. . 2 . . 2 . . . 2 . . 2 . 2 . 
+2 2 2 . . 2 2 2 2 2 . . 2 . 2 . 
 . . . . . . . . . . . . 2 . . . 
-`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight5,sprites.skillmap.islandTile4,sprites.dungeon.floorLight4,sprites.dungeon.doorClosedNorth,myTiles.tile4,myTiles.tile5], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight5,sprites.skillmap.islandTile4,sprites.dungeon.floorLight4,sprites.dungeon.doorClosedNorth,myTiles.tile5], TileScale.Sixteen);
         }
         return null;
     })
