@@ -54,7 +54,7 @@ function Level_1 () {
         ........................
         ........................
         `, SpriteKind.Enemy)
-    myEnemy.follow(Player_1)
+    myEnemy.setVelocity(randint(0, 100), randint(0, 100))
 }
 let myEnemy: Sprite = null
 let Player_1: Sprite = null
