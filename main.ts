@@ -58,10 +58,18 @@ function Level_1 () {
         `, SpriteKind.Enemy)
     tiles.placeOnRandomTile(myEnemy, sprites.skillmap.islandTile4)
     myEnemy.setBounceOnWall(true)
+    myEnemy.setVelocity(50, 50)
+    info.setLife(3)
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`myTile1`)
     info.changeScoreBy(1)
+})
+info.onLifeZero(function () {
+    game.gameOver(false)
+})
+sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSprite) {
+    info.changeLifeBy(-1)
 })
 let myEnemy: Sprite = null
 let Player_1: Sprite = null
