@@ -33,6 +33,12 @@
         "tilemapTile": true,
         "displayName": "myTile2"
     },
+    "tile6": {
+        "data": "hwQQABAAAAD//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////w==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile3"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
@@ -94,25 +100,6 @@
         ],
         "displayName": "level9"
     },
-    "level6": {
-        "id": "level6",
-        "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDAyMDkwNTA1MDkwOTA5MDkwOTA5MDUwNTA5MDkwNTA0MDgwOTAxMDEwMTAxMDEwMTAxMDEwMTA5MDkwOTAxMDYwODA5MDkwMTAxMDEwMTAxMDkwOTA5MDEwOTA5MDEwNjA4MDEwMTAxMDEwOTAxMDEwOTA5MDEwMTA5MDkwMTA2MDgwMTAxMDEwMTA5MDkwOTA5MDkwMTAxMDEwMTAxMDYwOTA5MDkwMTAxMDkwOTA5MDkwOTAxMDEwOTA5MDkwOTA4MDEwOTAxMDEwMTAxMDEwMTAxMDEwMTA5MDkwOTA5MDgwOTA5MDEwOTA5MDkwOTAxMDkwOTAxMDEwOTA5MDkwODAxMDEwMTA5MDkwOTA5MDEwOTA5MDkwMTAxMDEwNjA4MDEwMTAxMDEwMTAxMDEwMTAxMDkwOTAxMDEwMTA2MDkwOTA5MDEwMTA5MDkwOTA5MDEwMTAxMDEwMTAxMDYwOTA5MDkwMTAxMDkwOTA5MDkwMTAxMDEwOTAxMDkwOTA4MDEwMTAxMDEwMTA5MDkwMTAxMDEwMTA5MDEwMTA5MDgwMTA5MDkwMTAxMDkwOTAxMDkwOTA5MDkwOTAxMDYwODAxMDkwOTAxMDEwOTA5MDEwOTA5MDEwOTA5MDkwNjAzMDcwNzA3MDcwNzA5MDkwNzA3MDcwNzA5MDkwOTBhMjAwMDIyMjIyMjAwMjIwMDIwMDAwMDAwMDAyMDIyMDAyMDAyMDAwMDIyMDIyMjAwMDAwMDIwMDAyMjAwMjIwMDAwMDAyMDIyMjIwMDAwMDAyMjAyMjAyMjIyMDAyMjIyMDAwMjAwMDAwMDAwMjIyMjIwMDIyMjIyMjAwMjIwMjIwMDAwMjIyMjIwMjIwMDAwMDAwMDAwMDAwMDIyMDAwMDIyMDIyMDIyMDIwMDAwMDAyMjAyMjAyMjAyMDAwMjIyMDAwMDAwMjIwMDAwMDIyMDAwMjIwMDIyMjAyMjIyMDAwMDIyMDAyMjIwMDIyMjAyMDAwMDAwMjIwMDAwMjIwMg==",
-        "tileset": [
-            "myTiles.transparency16",
-            "sprites.builtin.forestTiles10",
-            "sprites.builtin.forestTiles5",
-            "sprites.builtin.forestTiles13",
-            "sprites.builtin.forestTiles7",
-            "sprites.builtin.forestTiles6",
-            "sprites.builtin.forestTiles11",
-            "sprites.builtin.forestTiles14",
-            "sprites.builtin.forestTiles9",
-            "sprites.dungeon.floorLight0",
-            "sprites.dungeon.collectibleInsignia"
-        ],
-        "displayName": "level0"
-    },
     "level2": {
         "id": "level2",
         "mimeType": "application/mkcd-tilemap",
@@ -127,6 +114,27 @@
             "myTiles.tile5"
         ],
         "displayName": "level2"
+    },
+    "level6": {
+        "id": "level6",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAyMDkwNTA1MDkwOTA5MDkwOTA5MDUwNTA5MDkwNTA0MDgwOTAxMDEwMTAxMDEwMTAxMDEwMTA5MDkwOTAxMDYwODA5MDkwMTAxMDEwMTAxMDkwOTA5MDEwOTA5MDEwNjA4MDEwMTAxMDEwOTAxMDEwOTA5MDEwMTBiMGIwMTA2MDgwMTAxMDEwMTA5MDkwOTA5MDkwMTAxMDEwMTAxMDYwOTA5MDkwMTAxMDkwOTA5MDkwOTAxMDEwOTA5MDkwOTA4MDEwOTAxMDEwMTAxMDEwMTAxMDEwMTBiMDkwOTA5MDgwOTA5MDEwYjA5MDkwOTAxMGIwOTAxMDEwYjA5MDkwODAxMDEwMTBiMGIwYjBiMDEwYjA5MDkwMTAxMDEwNjA4MDEwMTAxMDEwMTA5MDkwMTAxMGIwYjAxMDEwMTA2MDkwOTA5MDEwMTA5MDkwOTA5MDEwMTAxMDEwMTAxMDYwOTA5MDkwMTAxMDkwOTBjMDkwMTAxMDEwOTAxMGIwOTA4MDEwMTAxMDEwMTA5MDkwMTAxMDEwMTA5MDEwMTA5MDgwMTA5MGIwMTAxMDkwOTAxMGIwOTA5MDkwYjAxMDYwODAxMDkwYjAxMDEwOTA5MDEwYjA5MDEwOTA5MDkwNjAzMDcwNzA3MDcwNzA5MDkwNzA3MDcwNzA5MDkwOTBhMjAwMDIyMjIyMjAwMjIwMDIwMDAwMDAwMDAyMDIyMDAyMDAyMDAwMDIyMDIyMjAwMDAwMDIwMDAyMjAwMDAwMDAwMDAyMDIyMjIwMDAwMDAyMjAyMjAyMjIyMDAyMjIyMDAwMjAwMDAwMDAwMjAyMjIwMDIyMDIyMDAwMjAwMjIwMDAwMDAwMDAwMjIwMDAwMDAwMDAwMjIwMDAwMDAwMDIyMDIyMDIyMDIwMDAwMDAyMjAyMjAwMDAyMDAwMjIwMDAwMDAwMjAwMDAwMDIyMDAwMDIwMDIyMDAyMjAyMDAwMDAyMDAyMjAwMDIyMjAyMDAwMDAwMjIwMDAwMjIwMg==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.builtin.forestTiles10",
+            "sprites.builtin.forestTiles5",
+            "sprites.builtin.forestTiles13",
+            "sprites.builtin.forestTiles7",
+            "sprites.builtin.forestTiles6",
+            "sprites.builtin.forestTiles11",
+            "sprites.builtin.forestTiles14",
+            "sprites.builtin.forestTiles9",
+            "sprites.dungeon.floorLight0",
+            "sprites.dungeon.collectibleInsignia",
+            "myTiles.tile6",
+            "sprites.dungeon.chestClosed"
+        ],
+        "displayName": "level0"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
