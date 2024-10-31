@@ -54,8 +54,13 @@ function Level_1 () {
         ........................
         ........................
         `, SpriteKind.Enemy)
-    myEnemy.setVelocity(randint(0, 100), randint(0, 100))
+    tiles.placeOnRandomTile(myEnemy, sprites.skillmap.islandTile4)
+    myEnemy.setBounceOnWall(true)
 }
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile2`, function (sprite, location) {
+    tiles.setTileAt(location, assets.tile`myTile1`)
+    info.changeScoreBy(1)
+})
 let myEnemy: Sprite = null
 let Player_1: Sprite = null
 Level_1()
