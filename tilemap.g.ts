@@ -168,7 +168,7 @@ namespace myTiles {
 . . . . . . 2 2 . . . . 2 2 2 . 
 `, [myTiles.transparency16,sprites.builtin.forestTiles10,sprites.builtin.forestTiles5,sprites.builtin.forestTiles13,sprites.builtin.forestTiles7,sprites.builtin.forestTiles6,sprites.builtin.forestTiles11,sprites.builtin.forestTiles14,sprites.builtin.forestTiles9,sprites.dungeon.floorLight0,sprites.dungeon.collectibleInsignia], TileScale.Sixteen);
             case "level2":
-            case "level2":return tiles.createTilemap(hex`100010000808080809090106080707070c0d0d0e0808010909090102020108020b11110f0808020909090808080808020b11110f0102020109090101010101020b11110f0909090909090909010808080a10100f0801080102020207020801020201010108020801060808080208010602080807080207010101010802080808010808080802070707070108010101010207070808020707070701080808080808080808080107070707010102040202020201030801010801010109090907090105010308080208010909090101090901140107080602080209090906010707011401030102020802020202010109090114011206090907090907090909070901131312`, img`
+            case "level2":return tiles.createTilemap(hex`1000100003030303030301070303030303030303030301030303010202010302030303030303020303030303030303020303030301020201030301010101010203030303030303030303030301030303030303030301030102020203020301010201010103020301070303030203010702030303030203010101010302030303010303030302030303030103010101010203030303020303030301030303030303030303030103030303010102040202020201030301010301010103030303030105010303030203010303030101030301030103030702030203030307010303010301030102020302020202010103030103010307030303030303030303030301030303`, img`
 . . . . . . 2 . . . . . . . . . 
 . . 2 . . . 2 2 2 2 . 2 . . . . 
 . . 2 . . . . . . . . 2 . . . . 
@@ -185,7 +185,7 @@ namespace myTiles {
 . . 2 . 2 . . . . 2 . . 2 . 2 . 
 2 2 2 . 2 2 2 2 2 2 . . 2 . 2 . 
 . . . . . . . . . . . . 2 . . . 
-`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight5,sprites.skillmap.islandTile4,sprites.dungeon.floorLight4,sprites.dungeon.doorClosedNorth,myTiles.tile5,sprites.castle.tileGrass2,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.castle.tilePath7,sprites.castle.tilePath4,sprites.castle.tilePath1,sprites.castle.tilePath2,sprites.castle.tilePath3,sprites.castle.tilePath6,sprites.castle.tilePath8,sprites.castle.tilePath5,sprites.castle.tileDarkGrass1,sprites.castle.tileDarkGrass2,sprites.castle.tileDarkGrass3], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight5,sprites.skillmap.islandTile4,sprites.dungeon.floorLight4,sprites.dungeon.doorClosedNorth,myTiles.tile4,myTiles.tile5], TileScale.Sixteen);
         }
         return null;
     })

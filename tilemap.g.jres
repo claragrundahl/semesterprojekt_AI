@@ -116,7 +116,7 @@
     "level2": {
         "id": "level2",
         "mimeType": "application/mkcd-tilemap",
-        "data": "MTAxMDAwMTAwMDA4MDgwODA4MDkwOTAxMDYwODA3MDcwNzBjMGQwZDBlMDgwODAxMDkwOTA5MDEwMjAyMDEwODAyMGIxMTExMGYwODA4MDIwOTA5MDkwODA4MDgwODA4MDIwYjExMTEwZjAxMDIwMjAxMDkwOTAxMDEwMTAxMDEwMjBiMTExMTBmMDkwOTA5MDkwOTA5MDkwOTAxMDgwODA4MGExMDEwMGYwODAxMDgwMTAyMDIwMjA3MDIwODAxMDIwMjAxMDEwMTA4MDIwODAxMDYwODA4MDgwMjA4MDEwNjAyMDgwODA3MDgwMjA3MDEwMTAxMDEwODAyMDgwODA4MDEwODA4MDgwODAyMDcwNzA3MDcwMTA4MDEwMTAxMDEwMjA3MDcwODA4MDIwNzA3MDcwNzAxMDgwODA4MDgwODA4MDgwODA4MDgwMTA3MDcwNzA3MDEwMTAyMDQwMjAyMDIwMjAxMDMwODAxMDEwODAxMDEwMTA5MDkwOTA3MDkwMTA1MDEwMzA4MDgwMjA4MDEwOTA5MDkwMTAxMDkwOTAxMTQwMTA3MDgwNjAyMDgwMjA5MDkwOTA2MDEwNzA3MDExNDAxMDMwMTAyMDIwODAyMDIwMjAyMDEwMTA5MDkwMTE0MDExMjA2MDkwOTA3MDkwOTA3MDkwOTA5MDcwOTAxMTMxMzEyMDAwMDAwMDIwMDAwMDAwMDAwMDIwMDIyMjIyMDAwMDAwMDAyMDAwMDAwMjAwMDAwMjIyMjAwMjIyMjIyMDAwMDAwMDAwMDAwMDIwMDAwMDAyMDIwMjIwMjAyMjIyMjIyMjAyMDAwMDAwMjAyMDIwMDIwMjAyMjAyMDIwMDAyMDAyMDAwMDAwMjIyMjIwMjAwMjAwMDAwMDIwMDAwMDAwMDIwMDAwMDIyMjIyMjIyMDIyMDAyMjIwMjAwMDAwMjAyMDAwMjAyMDAyMjAwMDIwMjAwMDIwMjAwMjAwMDAyMDIyMjAyMjIyMjIyMDAwMjAyMDAwMDAwMDAwMDAwMDIwMA==",
+        "data": "MTAxMDAwMTAwMDAzMDMwMzAzMDMwMzAxMDcwMzAzMDMwMzAzMDMwMzAzMDMwMzAxMDMwMzAzMDEwMjAyMDEwMzAyMDMwMzAzMDMwMzAzMDIwMzAzMDMwMzAzMDMwMzAzMDIwMzAzMDMwMzAxMDIwMjAxMDMwMzAxMDEwMTAxMDEwMjAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAxMDMwMzAzMDMwMzAzMDMwMzAxMDMwMTAyMDIwMjAzMDIwMzAxMDEwMjAxMDEwMTAzMDIwMzAxMDcwMzAzMDMwMjAzMDEwNzAyMDMwMzAzMDMwMjAzMDEwMTAxMDEwMzAyMDMwMzAzMDEwMzAzMDMwMzAyMDMwMzAzMDMwMTAzMDEwMTAxMDEwMjAzMDMwMzAzMDIwMzAzMDMwMzAxMDMwMzAzMDMwMzAzMDMwMzAzMDMwMTAzMDMwMzAzMDEwMTAyMDQwMjAyMDIwMjAxMDMwMzAxMDEwMzAxMDEwMTAzMDMwMzAzMDMwMTA1MDEwMzAzMDMwMjAzMDEwMzAzMDMwMTAxMDMwMzAxMDMwMTAzMDMwNzAyMDMwMjAzMDMwMzA3MDEwMzAzMDEwMzAxMDMwMTAyMDIwMzAyMDIwMjAyMDEwMTAzMDMwMTAzMDEwMzA3MDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAxMDMwMzAzMDAwMDAwMDIwMDAwMDAwMDAwMDIwMDIyMjIyMDAwMDAwMDAyMDAwMDAwMjAwMDAwMjIyMjAwMjIyMjIyMDAwMDAwMDAwMDAwMDIwMDAwMDAyMDIwMjIwMjAyMjIyMjIyMjAyMDAwMDAwMjAyMDIwMDIwMjAyMjAyMDIwMDAyMDAyMDAwMDAwMjIyMjIwMjAwMjAwMDAwMDIwMDAwMDAwMDIwMDAwMDIyMjIyMjIyMDIyMDAyMjIwMjAwMDAwMjAyMDAwMjAyMDAyMjAwMDIwMjAwMDIwMjAwMjAwMDAyMDIyMjAyMjIyMjIyMDAwMjAyMDAwMDAwMDAwMDAwMDIwMA==",
         "tileset": [
             "myTiles.transparency16",
             "sprites.dungeon.floorLight0",
@@ -124,21 +124,8 @@
             "sprites.skillmap.islandTile4",
             "sprites.dungeon.floorLight4",
             "sprites.dungeon.doorClosedNorth",
-            "myTiles.tile5",
-            "sprites.castle.tileGrass2",
-            "sprites.castle.tileGrass1",
-            "sprites.castle.tileGrass3",
-            "sprites.castle.tilePath7",
-            "sprites.castle.tilePath4",
-            "sprites.castle.tilePath1",
-            "sprites.castle.tilePath2",
-            "sprites.castle.tilePath3",
-            "sprites.castle.tilePath6",
-            "sprites.castle.tilePath8",
-            "sprites.castle.tilePath5",
-            "sprites.castle.tileDarkGrass1",
-            "sprites.castle.tileDarkGrass2",
-            "sprites.castle.tileDarkGrass3"
+            "myTiles.tile4",
+            "myTiles.tile5"
         ],
         "displayName": "level2"
     },

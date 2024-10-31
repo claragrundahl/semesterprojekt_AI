@@ -1,7 +1,9 @@
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.doorClosedNorth, function (sprite, location) {
-    tiles.setCurrentTilemap(tilemap`level0`)
-    game.splash("Level 2", "Press A to start")
-    Player_1.setPosition(2, 4)
+    if (info.score() == 4) {
+        tiles.setCurrentTilemap(tilemap`level0`)
+        game.splash("Level 2", "Press A to start")
+        Player_1.setPosition(2, 4)
+    }
 })
 function Level_1 () {
     tiles.setCurrentTilemap(tilemap`level2`)
