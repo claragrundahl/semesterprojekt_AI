@@ -28,127 +28,35 @@ function Level_1 () {
     controller.moveSprite(Player_1)
     Player_1.setStayInScreen(true)
     scene.cameraFollowSprite(Player_1)
-    _1 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . c c c . . . . . 
-        . . . . . . . c c c c . . . . . 
-        . . . . . c c c c 1 c . . . . . 
-        . . . c c c c 1 1 1 c . . . . . 
-        . . . c c c 1 1 b b c . . . . . 
-        . . . c c 1 b b b 1 c . . . . . 
-        . . . c c 1 b 1 1 a c a c a c c 
-        . . . c c 1 1 1 a c a c a c a c 
-        . . . c c 1 c a c a c a c a c . 
-        . . . c c c a c a c a c a c . . 
-        . . . . c c c a c a c a c . . . 
-        . . . . . . . c c c a c c . . . 
-        . . . . . . . . . . c c . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Projectile)
-    _1.setPosition(125, 8)
-    _2 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . c c c . . . . . 
-        . . . . . . . c c c c . . . . . 
-        . . . . . c c c c 1 c . . . . . 
-        . . . c c c c 1 1 1 c . . . . . 
-        . . . c c c 1 1 b b c . . . . . 
-        . . . c c 1 b b b 1 c . . . . . 
-        . . . c c 1 b 1 1 a c a c a c c 
-        . . . c c 1 1 1 a c a c a c a c 
-        . . . c c 1 c a c a c a c a c . 
-        . . . c c c a c a c a c a c . . 
-        . . . . c c c a c a c a c . . . 
-        . . . . . . . c c c a c c . . . 
-        . . . . . . . . . . c c . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Projectile)
-    _2.setPosition(5, 100)
-    _3 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . c c c . . . . . 
-        . . . . . . . c c c c . . . . . 
-        . . . . . c c c c 1 c . . . . . 
-        . . . c c c c 1 1 1 c . . . . . 
-        . . . c c c 1 1 b b c . . . . . 
-        . . . c c 1 b b b 1 c . . . . . 
-        . . . c c 1 b 1 1 a c a c a c c 
-        . . . c c 1 1 1 a c a c a c a c 
-        . . . c c 1 c a c a c a c a c . 
-        . . . c c c a c a c a c a c . . 
-        . . . . c c c a c a c a c . . . 
-        . . . . . . . c c c a c c . . . 
-        . . . . . . . . . . c c . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Projectile)
-    _3.setPosition(0, 0)
-    _4 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . c c c . . . . . 
-        . . . . . . . c c c c . . . . . 
-        . . . . . c c c c 1 c . . . . . 
-        . . . c c c c 1 1 1 c . . . . . 
-        . . . c c c 1 1 b b c . . . . . 
-        . . . c c 1 b b b 1 c . . . . . 
-        . . . c c 1 b 1 1 a c a c a c c 
-        . . . c c 1 1 1 a c a c a c a c 
-        . . . c c 1 c a c a c a c a c . 
-        . . . c c c a c a c a c a c . . 
-        . . . . c c c a c a c a c . . . 
-        . . . . . . . c c c a c c . . . 
-        . . . . . . . . . . c c . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Projectile)
-    _4.setPosition(0, 0)
-    _5 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . c c c . . . . . 
-        . . . . . . . c c c c . . . . . 
-        . . . . . c c c c 1 c . . . . . 
-        . . . c c c c 1 1 1 c . . . . . 
-        . . . c c c 1 1 b b c . . . . . 
-        . . . c c 1 b b b 1 c . . . . . 
-        . . . c c 1 b 1 1 a c a c a c c 
-        . . . c c 1 1 1 a c a c a c a c 
-        . . . c c 1 c a c a c a c a c . 
-        . . . c c c a c a c a c a c . . 
-        . . . . c c c a c a c a c . . . 
-        . . . . . . . c c c a c c . . . 
-        . . . . . . . . . . c c . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Projectile)
-    _5.setPosition(0, 0)
-    _6 = sprites.create(img`
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . c c c . . . . . 
-        . . . . . . . c c c c . . . . . 
-        . . . . . c c c c 1 c . . . . . 
-        . . . c c c c 1 1 1 c . . . . . 
-        . . . c c c 1 1 b b c . . . . . 
-        . . . c c 1 b b b 1 c . . . . . 
-        . . . c c 1 b 1 1 a c a c a c c 
-        . . . c c 1 1 1 a c a c a c a c 
-        . . . c c 1 c a c a c a c a c . 
-        . . . c c c a c a c a c a c . . 
-        . . . . c c c a c a c a c . . . 
-        . . . . . . . c c c a c c . . . 
-        . . . . . . . . . . c c . . . . 
-        . . . . . . . . . . . . . . . . 
-        . . . . . . . . . . . . . . . . 
-        `, SpriteKind.Projectile)
-    _6.setPosition(0, 0)
+    myEnemy = sprites.create(img`
+        ........................
+        ........................
+        ........................
+        ........................
+        ..........ffff..........
+        ........ff1111ff........
+        .......fb111111bf.......
+        .......fd1111111f.......
+        ......fdd1111111df......
+        ......fddd111111df......
+        ......fdddddd111df......
+        ......fbddddbfd1df......
+        ......fcbbbdcfddbf......
+        .......fcbb11111f.......
+        ........fffff1b1f.......
+        ........fb111cfbf.......
+        ........ffb1b1ff........
+        ......f.fffbfbf.........
+        ......ffffffff..........
+        .......fffff............
+        ........................
+        ........................
+        ........................
+        ........................
+        `, SpriteKind.Enemy)
+    myEnemy.follow(Player_1)
 }
-let _6: Sprite = null
-let _5: Sprite = null
-let _4: Sprite = null
-let _3: Sprite = null
-let _2: Sprite = null
-let _1: Sprite = null
+let myEnemy: Sprite = null
 let Player_1: Sprite = null
 Level_1()
 forever(function () {
